@@ -1,0 +1,7 @@
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+.form-grid .wide { grid-column: 1 / -1; }
+.confirm-card { text-align: center; }
+.confirm-icon { color: var(--primary); margin-bottom: 8px; }
+.confirm-rows { text-align: left; background: var(--bg); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; margin: 22px 0; display: flex; flex-direction: column; gap: 10px; }
+.confirm-rows p { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; word-break: break-word; }
+@media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } .card { padding: 22px 18px; } }

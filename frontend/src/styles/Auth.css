@@ -1,0 +1,7 @@
+.auth-page { min-height: calc(100vh - var(--nav-h) - 100px); display: grid; place-items: center; padding: 40px 20px; background: radial-gradient(circle at 20% 10%, rgba(139, 195, 74, .12), transparent 45%), var(--bg); }
+.auth-card { width: 100%; max-width: 440px; background: var(--card); border: 1px solid var(--border); border-radius: 22px; box-shadow: var(--shadow-lg); padding: 38px 34px; }
+.auth-card h1 { font-size: 1.8rem; text-align: center; margin-bottom: 6px; }
+.auth-sub { text-align: center; color: var(--muted); margin-bottom: 24px; }
+.forgot { text-align: right; margin: -4px 0 18px; font-size: .9rem; }
+.auth-switch { text-align: center; margin-top: 20px; color: var(--muted); font-size: .95rem; }
+@media (max-width: 480px) { .auth-card { padding: 28px 20px; } }
